@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}Terms of Service{% endblock %}
+
+{% block content %}
+
+
+<main class="terms-page">
+    <div class="terms-content-wrapper">
+        <div class="terms-image-section">
+            <img src="{% static 'images/tos_main_illustration.svg' %}" alt="Terms of Service Illustration" class="terms-image">
+        </div>
+
+        <div class="terms-text-section">
+            <h1>Google Terms of Service</h1>
+            <p class="terms-date">Effective 5 January 2025</p>
+
+            <p class="terms-links">
+                <a href="#">Archived versions</a> |
+                <a href="#">Download PDF</a>
+            </p>
+
+            <h2>What’s covered in these terms</h2>
+
+            <p>
+                We know it’s tempting to skip these Terms of Service, but it’s important
+                to establish what you can expect from us as you use Google services,
+                and what we expect from you.
+            </p>
+
+            <p>
+                These Terms of Service reflect the way Google’s business works,
+                the laws that apply to our company, and certain things that we’ve
+                always believed to be true.
+            </p>
+
+            <p>
+                As a result, these Terms of Service help define Google’s relationship
+                with you as you interact with our services.
+            </p>
+
+            <a href="{% url 'core:home' %}" class="back-home-link">Back to Home</a>
+        </div>
+    </div>
+</main>
+{% endblock %}

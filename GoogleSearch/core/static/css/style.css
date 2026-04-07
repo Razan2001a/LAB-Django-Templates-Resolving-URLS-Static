@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+
+/* 🌙 زر الوضع */
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: none;
+    background: #f1f3f4;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* HEADER */
+.top-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 20px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sign-in-btn {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+/* HOME */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.google-logo {
+    width: 270px;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-img-icon {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.buttons-area {
+    margin-top: 20px;
+}
+
+.search-btn {
+    padding: 10px 14px;
+    margin: 5px;
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footer-country {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* TERMS */
+.terms-page {
+    padding: 40px;
+}
+
+.terms-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.terms-image {
+    width: 400px;
+}
+
+.terms-text-section {
+    max-width: 500px;
+}
+
+.back-home-link {
+    display: block;
+    margin-top: 20px;
+    color: blue;
+}
+
+/* 🌙 DARK MODE */
+.dark-mode {
+    background: #202124;
+    color: #e8eaed;
+}
+
+.dark-mode a {
+    color: #e8eaed;
+}
+
+.dark-mode .search-box {
+    background: #303134;
+    border-color: #5f6368;
+}
+
+.dark-mode .search-input {
+    color: white;
+}
+
+.dark-mode .search-btn {
+    background: #303134;
+    color: #e8eaed;
+}
+
+.dark-mode .footer {
+    background: #171717;
+}
